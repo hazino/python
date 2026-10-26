@@ -1,0 +1,18 @@
+{
+  "provider": "openai",
+  "base_url": "http://llm.internal.company:8000/v1",
+  "model": "qwen2.5-coder-32b-instruct",
+  "api_key": "",
+  "temperature": 0.1,
+  "max_tokens": 2048,
+  "timeout": 300,
+  "verify_ssl": true,
+  "ca_bundle": "",
+  "extra_headers": {},
+
+  "context_chars": 24000,
+  "max_map_batches": 8,
+  "expand_depth": 1,
+  "max_related": 12,
+  "language": "ko"
+}
